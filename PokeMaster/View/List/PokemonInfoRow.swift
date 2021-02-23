@@ -11,7 +11,7 @@ import SafariServices
 
 struct PokemonInfoRow: View {
     
-    
+    //first 
     let model : PokemonViewModel
     var expanded :Bool
     @State var isShowingPanel:Bool = false
