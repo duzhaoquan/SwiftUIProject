@@ -39,6 +39,8 @@ struct PokemonList: View {
 //            }.edgesIgnoringSafeArea(.bottom)
 //        )
         
+//hihihi
+        
     }
 }
 
