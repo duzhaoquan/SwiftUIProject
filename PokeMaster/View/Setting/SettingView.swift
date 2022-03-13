@@ -31,7 +31,7 @@ struct SettingView: View {
     var accountSection :some View {
         //nihao jio
         
-        Section(header: Text("账户")){
+        Section(header: Text("账户名")){
             if settings.loginUser == nil{
                 Picker(selection: settingsBinding.accountBehavior,label: Text("")) {
 
