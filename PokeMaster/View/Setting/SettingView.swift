@@ -29,6 +29,7 @@ struct SettingView: View {
         store.appState.settings
     }
     var accountSection :some View {
+        //nihao jio
         
         Section(header: Text("账户")){
             if settings.loginUser == nil{
