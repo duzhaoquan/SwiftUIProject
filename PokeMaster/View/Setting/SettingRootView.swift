@@ -15,7 +15,7 @@ struct SettingRootView: View {
         }
     }
 }
-
+//hello swiftUI
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
         SettingRootView()
