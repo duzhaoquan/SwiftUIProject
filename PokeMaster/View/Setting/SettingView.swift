@@ -21,6 +21,8 @@ struct SettingView: View {
         }
         
     }
+    //huia
+    
     @EnvironmentObject var store: Store
     var settingsBinding: Binding<AppState.Settings> {
         $store.appState.settings
