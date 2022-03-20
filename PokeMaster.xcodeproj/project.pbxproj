@@ -21,6 +21,7 @@
 		40A17ED02429EBA500983F55 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A17ECF2429EBA500983F55 /* AppError.swift */; };
 		40A17ED22429EF4400983F55 /* LoginAppCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A17ED12429EF4400983F55 /* LoginAppCommand.swift */; };
 		40A17ED5242A199D00983F55 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A17ED4242A199D00983F55 /* FileStorage.swift */; };
+		40B7D4A927E6F7F70003FF21 /* DQStorege.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B7D4A827E6F7F70003FF21 /* DQStorege.swift */; };
 		40D5000A2427647E004478F1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D500092427647E004478F1 /* AppState.swift */; };
 		40D5000C242765B5004478F1 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D5000B242765B5004478F1 /* Store.swift */; };
 		40D5000E24277160004478F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D5000D24277160004478F1 /* User.swift */; };
@@ -118,6 +119,7 @@
 		40A17ECF2429EBA500983F55 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		40A17ED12429EF4400983F55 /* LoginAppCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAppCommand.swift; sourceTree = "<group>"; };
 		40A17ED4242A199D00983F55 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		40B7D4A827E6F7F70003FF21 /* DQStorege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DQStorege.swift; sourceTree = "<group>"; };
 		40D500092427647E004478F1 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		40D5000B242765B5004478F1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		40D5000D24277160004478F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				409C2EF42420D10A00D2CD1C /* BlurView.swift */,
+				40B7D4A827E6F7F70003FF21 /* DQStorege.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 			files = (
 				40E84787241E1E0B00166FFD /* AppDelegate.swift in Sources */,
 				40A17ECC2429DC6900983F55 /* AppAction.swift in Sources */,
+				40B7D4A927E6F7F70003FF21 /* DQStorege.swift in Sources */,
 				40A17ED22429EF4400983F55 /* LoginAppCommand.swift in Sources */,
 				40E84834241E3C7400166FFD /* Sample.swift in Sources */,
 				4039C3B62420F33300E50DDE /* PokemonRootView.swift in Sources */,
